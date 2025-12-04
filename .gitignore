@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Models (grote bestanden)
+models/*.h5
+models/*.keras
+models/*.pth
+models/*.pt
+models/*.ckpt
+
+# Data (grote bestanden)
+datasets/raw/**
+datasets/processed/**
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
