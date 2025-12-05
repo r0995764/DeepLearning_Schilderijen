@@ -47,6 +47,7 @@ models/*.ckpt
 # Data (grote bestanden)
 datasets/raw/**
 datasets/processed/**
+datasets/cleaned/**
 
 # OS
 .DS_Store
