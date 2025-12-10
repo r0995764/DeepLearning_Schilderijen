@@ -48,7 +48,8 @@ models/*.ckpt
 datasets/raw/**
 datasets/processed/**
 datasets/cleaned/**
-
+datasets/dataset_processed_vsc.zip
+datasets/**
 # OS
 .DS_Store
 Thumbs.db
