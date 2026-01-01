@@ -1,0 +1,28 @@
+# Deep Learning framework
+tensorflow
+
+# Data processing en wetenschappelijke berekeningen
+numpy
+
+# Web scraping
+requests
+beautifulsoup4
+
+# Beeldverwerking
+Pillow
+
+# Data visualisatie
+matplotlib
+seaborn
+
+# Machine learning utilities
+scikit-learn
+
+# Voortgangsbalk
+tqdm
+
+# Jupyter notebook widgets (voor tqdm.notebook)
+ipywidgets
+
+# Demo interface
+gradio
