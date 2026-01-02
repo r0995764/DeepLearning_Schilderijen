@@ -77,7 +77,7 @@ Upload een afbeelding van een schilderij en het model voorspelt welke kunstenaar
 
 ## 👥 Auteur
 
-Mathieu - Thomas More Hogeschool
+Mathieu - Vives Hogeschool
 
 ## 📝 Licentie
 
