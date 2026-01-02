@@ -1,0 +1,2 @@
+Upload een schilderij,Voorspelling,timestamp
+".gradio/flagged/Upload een schilderij/050b20a98f8fa973c9af/Peter_Paul_Rubens_-_The_Descent_from_the_Cross_Antwerp_Cathedral.,_c._1613.jpg","{""label"": ""Mondriaan"", ""confidences"": [{""label"": ""Mondriaan"", ""confidence"": 0.9175236821174622}, {""label"": ""Picasso"", ""confidence"": 0.07999174296855927}, {""label"": ""Rubens"", ""confidence"": 0.0013954073656350374}, {""label"": ""Rembrandt"", ""confidence"": 0.001089222147129476}]}",2026-01-01 23:32:25.485338
