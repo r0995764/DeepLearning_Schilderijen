@@ -1,26 +1,84 @@
-# Deep Learning - Schilderijnen Classificatie
+# 🎨 Deep Learning - Schilderijen Classificatie
 
-Dit project classificeert schilderijen van Mondriaan, Picasso, Rembrandt en Rubens met behulp van deep learning.
+Een deep learning project dat schilderijen classificeert van vier beroemde kunstenaars: **Mondriaan**, **Picasso**, **Rembrandt** en **Rubens**.
 
-## Project Structuur
+## 📊 Resultaten
 
-- `datasets/`: Ruwe en verwerkte data
-- `models/`: Getrainde modellen
-- `notebooks/`: Jupyter notebooks voor analyse en training
-- `reports/`: Rapportages en visualisaties
-- `scr/`: Source code
+Het beste model (VGG16 met Transfer Learning) behaalt een nauwkeurigheid van **~94%** op de testset.
 
-## Setup
+## 📁 Project Structuur
 
+```
+├── datasets/
+│   ├── raw/          # Originele gescrapete afbeeldingen
+│   ├── cleaned/      # Opgeschoonde dataset
+│   └── processed/    # Train/validation/test splits
+├── models/           # Getrainde modellen (.keras, .h5)
+├── notebooks/        # Jupyter notebooks
+├── VSC_training_files/  # Scripts voor Vlaamse Supercomputer
+└── requirements.txt
+```
+
+## 🚀 Installatie & Setup
+
+### 1. Clone de repository
+```bash
+git clone https://github.com/r0995764/DeepLearning_Schilderijen.git
+cd DeepLearning_Schilderijen
+```
+
+### 2. Maak een virtuele omgeving aan (aanbevolen)
+```bash
+python -m venv venv
+source venv/bin/activate  # Linux/Mac
+# OF
+venv\Scripts\activate     # Windows
+```
+
+### 3. Installeer dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-## Notebooks
+### 4. Start Jupyter Notebook
+```bash
+jupyter notebook
+```
 
-1. `01_datascraping.ipynb` - Data verzameling
-2. `02_data_cleaning_exploration.ipynb` - Data cleaning en exploratie
-3. `03_preprocessing_split.ipynb` - Data preprocessing
-4. `04_model_training_baseline.ipynb` - Baseline model
-5. `05_model_finetuning.ipynb` - Model fine-tuning
-6. `06_demo_gradio.ipynb` - Gradio demo interface
+## 📓 Notebooks
+
+| Notebook | Beschrijving |
+|----------|--------------|
+| `01_datascraping.ipynb` | Web scraping van schilderijen via WikiArt |
+| `02_data_cleaning_exploration.ipynb` | Data cleaning en exploratie |
+| `03_preprocessing_split.ipynb` | Preprocessing en train/val/test split |
+| `04_model_training_baseline.ipynb` | Baseline CNN model |
+| `04b_data_augmentation-baseline.ipynb` | Model met data augmentation |
+| `05_model_finetuning.ipynb` | Transfer Learning met VGG16 |
+| `06_demo_gradio.ipynb` | **Interactieve demo** met Gradio |
+
+## 🎯 Demo
+
+Start de Gradio demo om zelf schilderijen te classificeren:
+
+```bash
+jupyter notebook notebooks/06_demo_gradio.ipynb
+```
+
+Upload een afbeelding van een schilderij en het model voorspelt welke kunstenaar het heeft gemaakt!
+
+## 🛠️ Technologieën
+
+- **TensorFlow/Keras** - Deep learning framework
+- **VGG16** - Pre-trained model voor transfer learning
+- **Gradio** - Interactieve web interface
+- **Scikit-learn** - Evaluatie metrics
+- **BeautifulSoup** - Web scraping
+
+## 👥 Auteur
+
+Mathieu - Thomas More Hogeschool
+
+## 📝 Licentie
+
+Dit project is gemaakt voor educatieve doeleinden.

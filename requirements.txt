@@ -1,28 +1,29 @@
 # Deep Learning framework
-tensorflow
+tensorflow>=2.15.0
 
 # Data processing en wetenschappelijke berekeningen
-numpy
+numpy>=1.24.0
 
 # Web scraping
-requests
-beautifulsoup4
+requests>=2.31.0
+beautifulsoup4>=4.12.0
 
 # Beeldverwerking
-Pillow
+Pillow>=10.0.0
 
 # Data visualisatie
-matplotlib
-seaborn
+matplotlib>=3.7.0
+seaborn>=0.12.0
 
 # Machine learning utilities
-scikit-learn
+scikit-learn>=1.3.0
 
 # Voortgangsbalk
-tqdm
+tqdm>=4.65.0
 
-# Jupyter notebook widgets (voor tqdm.notebook)
-ipywidgets
+# Jupyter notebook
+jupyter>=1.0.0
+ipywidgets>=8.0.0
 
 # Demo interface
-gradio
+gradio>=4.0.0
