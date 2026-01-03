@@ -5,7 +5,7 @@ Een deep learning project dat schilderijen classificeert van vier beroemde kunst
 ## 📊 Resultaten
 
 Het beste model (VGG16 met Transfer Learning) behaalt een nauwkeurigheid van **~94%** op de testset.
-
+De dataset is niet mee gepusht, maar zou door notebooks in volgorde uit te voeren moeten correct komen te staan. In het filmpje kunt u zien wat ik hiermee heb gedaan.
 ## 📁 Project Structuur
 
 ```
